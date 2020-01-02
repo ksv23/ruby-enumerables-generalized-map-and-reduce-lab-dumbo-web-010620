@@ -1,7 +1,7 @@
 # Your Code Here
 require 'pry'
 
-def ap(source_array)
+def map(source_array)
 
 binding.pry
 end
