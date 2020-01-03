@@ -26,7 +26,7 @@ def reduce(source_array, starting_value = nil)
     sum = yield(sum, source_array[x])
     x += 1
   end
-
+  sum
 end
 
 # reduce([1,2,3], 100)
