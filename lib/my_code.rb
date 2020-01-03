@@ -10,3 +10,8 @@ def map(source_array)
   # source_array.map { |source_array| source_array * -1}
   new
 end
+
+
+def reduce(source_array)
+
+end
