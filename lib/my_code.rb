@@ -12,6 +12,6 @@ def map(source_array)
 end
 
 
-def reduce(source_array)
+def reduce(source_array, starting_value = nil)
   source_array.reduce {|memo, n| memo + n}
 end
