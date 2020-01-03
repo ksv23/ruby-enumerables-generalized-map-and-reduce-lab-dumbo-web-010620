@@ -13,5 +13,5 @@ end
 
 
 def reduce(source_array)
-
+  source_array.reduce {|memo, n| memo + n}
 end
