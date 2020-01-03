@@ -15,7 +15,7 @@ end
 def reduce(source_array, starting_value = nil)
 
   if starting_value
-    num1 = starting_value
+    sum = starting_value
     x = 0
   else
     num1 = array[0]
