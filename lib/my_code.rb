@@ -8,4 +8,5 @@ def map(source_array)
     x += 1
   end
   # source_array.map { |source_array| source_array * -1}
+  new
 end
