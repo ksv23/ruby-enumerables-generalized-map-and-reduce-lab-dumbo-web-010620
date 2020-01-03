@@ -13,6 +13,14 @@ end
 
 
 def reduce(source_array, starting_value = nil)
+  if starting_value
+    num1 = starting_value
+    x = 0
+  else
+    num1 = array[0]
+    x = 1
+  end
+
   source_array.reduce {|memo, n| memo + n}
 end
 
