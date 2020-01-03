@@ -28,7 +28,7 @@ def reduce(source_array, starting_value = nil)
   end
 
   sum
-  
+
 end
 
 # reduce([1,2,3], 100)
