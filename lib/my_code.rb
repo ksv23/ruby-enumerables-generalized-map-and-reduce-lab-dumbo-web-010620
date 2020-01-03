@@ -21,7 +21,10 @@ def reduce(source_array, starting_value = nil)
     x = 1
   end
 
-  source_array.reduce {|memo, n| memo + n}
+  while x < source_array.length do
+    sum = yield(sum, source_array[x])
+    x += 1
+  end
 end
 
-reduce([1,2,3], 100)
+# reduce([1,2,3], 100)
