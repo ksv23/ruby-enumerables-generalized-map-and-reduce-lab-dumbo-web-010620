@@ -13,6 +13,7 @@ end
 
 
 def reduce(source_array, starting_value = nil)
+
   if starting_value
     num1 = starting_value
     x = 0
@@ -25,6 +26,7 @@ def reduce(source_array, starting_value = nil)
     sum = yield(sum, source_array[x])
     x += 1
   end
+
 end
 
 # reduce([1,2,3], 100)
